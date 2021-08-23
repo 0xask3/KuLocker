@@ -1,0 +1,29 @@
+{
+  "name": "kulocker",
+  "version": "1.0.0",
+  "description": "Kulocker smart contracts",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grimreaper619/Contracts.git"
+  },
+  "author": "Grim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grimreaper619/Contracts/issues"
+  },
+  "homepage": "https://github.com/grimreaper619/Contracts#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.0",
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "dotenv": "^10.0.0",
+    "solidity-coverage": "^0.7.16",
+    "truffle-plugin-verify": "^0.5.11"
+  }
+}
